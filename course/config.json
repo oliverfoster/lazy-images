@@ -28,7 +28,7 @@
     },
     "_graphics": {
         "_isEnabled": true,
-        "_className": ".os-ios, .os-android"
+        "_className": ""
     },
     "_spoor": {
         "_isEnabled": true,
