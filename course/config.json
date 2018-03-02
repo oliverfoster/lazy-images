@@ -46,7 +46,14 @@
             "_resetStatusOnLanguageChange": false
         }
     },
-    "_disableAnimationFor": [".ie8", ".iPhone.version-7\\.0"],
-    "build": {
+    "_disableAnimationFor": [
+        ".ie8",
+        ".iPhone.version-7\\.0"
+    ],
+    "build": {},
+    "screenSize": {
+        "small": 520,
+        "medium": 760,
+        "large": 900
     }
 }

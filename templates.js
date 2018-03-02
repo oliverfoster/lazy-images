@@ -1673,9 +1673,9 @@ this["Handlebars"]["templates"]["boxmenu-item"] = Handlebars.template({"1":funct
 },"3":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=container.escapeExpression;
 
-  return "            <img src=\""
+  return "            <img "
     + alias1(((helper = (helper = helpers.graphic || (depth0 != null ? depth0.graphic : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"graphic","hash":{},"data":data}) : helper)))
-    + "\" alt=\""
+    + " alt=\""
     + alias1(container.lambda(((stack1 = (depth0 != null ? depth0._graphic : depth0)) != null ? stack1.alt : stack1), depth0))
     + "\" />\n";
 },"5":function(container,depth0,helpers,partials,data) {
